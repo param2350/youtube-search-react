@@ -1,0 +1,62 @@
+.search-bar {
+    margin: 20px 0px;
+    text-align: center;
+    width: 60%
+}
+
+
+.search-bar input {
+    width: 95%;
+    
+    padding: 0px 5px;
+    
+    
+}
+
+.video-item img {
+    max-width: 64px;
+
+}
+
+.video-detail .details {
+    
+    margin-top: 10px;
+    padding: 10px;
+    border:1px solid #ddd;
+    border-radius: 4px;
+
+}
+
+.video-detail .video-detail-title {
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.video-detail .video-detail-description {
+    font-size: 12px;
+}
+
+.media-heading {
+    font-size: 10px;
+
+}
+
+ 
+
+
+@media only screen and (max-width: 700px) {
+    .list-group {
+        margin-left: 15px;
+    
+    }   
+  }
+.list-group-item {
+    cursor: pointer;
+    
+
+}
+.list-group-item:hover {
+    background-color: #eee;
+}
